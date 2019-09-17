@@ -1,0 +1,148 @@
+.wrapper{ 
+    position:absolute;
+    left:30%;
+    top:10%;
+    }
+    
+    .head{
+      position:relative;
+      width:500px;
+      height:650px;
+      border:solid 3px black;
+      background-color:rgb(224, 210, 215);
+      border-radius:100em;
+      z-index:1;
+    }
+    
+    .righteye{
+      position:relative;
+      width: 180px;
+      height: 125px;
+      z-index: 2;
+      border:solid 1px black;
+      top: 70px;
+      left: 275px;
+      background-color: black;
+      border-radius: 70px 75px 70px 75px;
+    }
+    
+    .lefteye{
+      position:relative;
+      width: 180px;
+      height: 125px;
+      z-index: 2;
+      border:solid 1px black;
+      top: 200px;
+      left: 75px;
+      background-color: black;
+      border-radius: 70px 75px 70px 75px;
+    }
+    
+    
+    #lie{
+       position:relative;
+      width: 168px;
+      height: 110px;
+      z-index:3;
+      border:solid 1px white;
+      top: 5px;
+      left:5px;
+      background-color: white;
+      border-radius: 100px; 
+     }
+    
+    
+    #rie{
+      position:relative;
+      width: 168px;
+      height: 110px;
+      z-index:3;
+      border:solid 1px white;
+      top: 5px;
+      left: 5px;
+      background-color: white;
+      border-radius: 100px;  
+    }
+    
+    .body{
+      height: 300px;
+      width: 300px;
+      position:relative;
+      border:solid 1px black;
+      background-color: black;
+      z-index:0;
+      top:-25px;
+      left:90px;
+      border-radius: 50px 50px 0px 0px;
+    }
+    
+    .mouth {
+        width:210px;
+        height: 50px;
+        border: solid 1px black;
+        border-radius: 0 0 15px 15px;
+        margin: 16px;
+        position: relative;
+        left: -10em;
+        top: 10em;
+        background-color: red;
+        
+    
+    }
+    
+    
+    #tooth1 {
+      width: 0px;
+        height: 20px;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-top: 20px solid white;
+      position: relative;
+      top: 93px;
+      left: -120px;
+    }
+    
+    #tooth2 {
+     width: 0px;
+        height: 20px;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-top: 20px solid white;
+      position: relative;
+      top: 53px;
+      left: 0px;
+    }
+    
+    
+    .left-arm{
+      position:relative;
+      height: 260px;
+      width: 60px;
+      top: -15px;
+      left:-70px;
+      border:none solid solid solid 1px black;
+      background-color:black;
+      z-index:-1;
+      border-radius: 0px 100px 0 0 ;
+      transform: rotate(45deg)  
+    }
+    
+    .right-arm{
+      position:relative;
+      height: 260px;
+      width: 60px;
+      top:-280px;
+      left:310px;
+      border:none 1px black;
+      background-color:black;
+      z-index:-1;
+      border-radius: 100px 0px 0 0 ;
+      transform: rotate(313deg)  
+    }
+    
+    
+    
+    
+    
+    
+    
